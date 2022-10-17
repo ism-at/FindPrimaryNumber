@@ -24,13 +24,15 @@ public class FindPrime {
             }
         }
         System.out.println("Die Primär Zahlen von  1 - " + limit);
+        // Entweder
         // Klassische for Loop
         /*for (int zahl =0; zahl <= Primarzahlen.size(); zahl++) {
             System.out.println(zahl);
         }*/
+        // ODER
         // For each loop
-        for (int zahl:Primarzahlen) {
-            System.out.println(zahl);
+        for (int zahlForEach:Primarzahlen) {
+            System.out.println(zahlForEach);
         }
     }
 }
